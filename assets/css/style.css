@@ -1,0 +1,229 @@
+* {
+    margin: auto;
+    width: 92%;
+    font-family: 'Poppins', sans-serif;
+    color: dimgray;
+    align-items: center;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0efef;
+    color: #c2c2c2;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    border-radius: 50%;
+    margin-top: 80px;
+    box-shadow: 1px 1px 20px 10px #dddddd;
+}
+
+h1, h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    color: #35c07d;
+}
+
+.saldo-box, .receitas, .despesas {
+    margin: 0 auto;
+}
+
+.saldo-box {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-align: center;
+    width: 90%;
+    height: 70%;
+    box-shadow: 1px 1px 10px 10px #dddddd;
+}
+
+.saldo-title {
+    font-size: 28px;
+    color: #c2c2c2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.saldo-amount {
+    font-size: 36px;
+    color: #425b9b;
+    text-align: left;
+}
+
+.saldo-amount i.far.fa-eye-slash {
+    margin-left: 10px;
+    color:#e4e4e4
+}
+
+h2 {
+    font-size: 20px;
+    color:#425b9b;
+    margin-top: auto;
+}
+
+.mensal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.receitas, .despesas {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    width: calc(50% 20px);
+    box-shadow: 1px 1px 20px 10px #dddddd;
+}
+
+.receitas span, .despesas span {
+    display: block;
+}
+
+.receitas {
+    margin-right: 5px;
+}
+
+.despesas {
+    margin-left: 10px; 
+}
+
+.receitas span {
+    display: block;
+    font-size: 18px;
+    color: #2ecc71;
+    margin-top: 5px; 
+}
+.nome {
+    font-weight: bold;
+    color: #c2c2c2; /* Cor do nome */
+}
+
+.valor {
+    color: #e48686; 
+    margin-left: 5px; 
+}
+.despesas span {
+    display: block;
+    font-size: 18px;
+    color: #e48686;
+    margin-top: 5px; 
+}
+.receitas i.fa-arrow-up, .despesas i.fa-arrow-down {
+    display: inline-block;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #2ecc71;
+    color: white; 
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.despesas i.fa-arrow-down {
+    background-color: #e48686;
+}
+
+.previstos {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: 1px 1px 20px 10px #dddddd;
+}
+
+.previsto-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: left;
+}
+
+.previsto-item span {
+    margin-left: auto;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.previsto-item i {
+    margin-right: 5px;
+    text-align: left;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%; 
+    background-color: #e48686; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    margin-right: 30px;
+}
+
+.valor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+
+.valor i {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.floating-button-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.floating-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 20px 5px #c5c5c5;
+    border: none;
+    cursor: pointer;
+}
+
+.floating-button i {
+    margin-top: 12px;
+    color: #fff;
+    align-items: center;
+    vertical-align: middle;
+}
